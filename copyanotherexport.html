@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>baishakhi portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://kit.fontawesome.com/1a4e52b160.js"
+  crossorigin="anonymous" background-color="gray"></script>
+  <script src="port.js"></script>
+</head>
+<style>
+  .btn{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  .bski{
+    
+    height: 100%;
+    width: 100%;
+    background: #eff4fd;
+    
+  }
+  
+  nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    
+  }
+
+  .B{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+  }
+  .B::first-letter{
+    font-size: 40px;
+    border:  2px solid blue;
+    border-right: transparent;
+    padding-left: 5px;
+    color: #fd4766;
+
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    
+  }
+  nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+    
+  }
+  nav ul li a:hover{
+    color: #fd4766;
+  }
+  nav ul li a ::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+  }
+  nav ul li a:hover::after{
+    width:100%;
+ }
+ .btn{
+  color:#fff;
+  font-size: 10px;
+  
+  background: #fd4766;
+  height: 40px;
+  width: 150px;
+  padding: 10px 3px;
+  border-radius: 500px;
+  display:inline-block;
+  font-weight: 500;
+  transition: all .4s ease-in-out;
+  border: 2px solid #fd4766;
+  margin-left: 23%;
+  margin-top: 45px;
+
+ }
+ .btn:hover{
+   background: transparent;
+   color: #fd4766;
+ }
+
+ .detail h1{
+  color:#10106d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-left: 75px;
+ }
+ .detail  span{
+  color: #fd4766; 
+  margin-left: 75px; 
+  font-style: italic;
+ }
+ .detail p{
+  color:#4c8367 ;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 45%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+ }
+ .detail span b{
+  color: rgb(3, 3, 218);
+  font-weight: 70px;
+  font-family: fantasy;
+  font-size: x-large;
+ }
+ .parent
+{
+display: flex;
+ top: 250px;
+ 
+ 
+
+}
+
+
+
+
+i{
+  color:rgb(0, 128, 90);
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   font-style: initial;
+  margin-left: 50px;
+  
+}
+
+
+.a img{
+  
+  width: 240px;
+  height: 480px;
+  margin-left: 62%;
+  margin-left: 65%;
+  margin-top:15%;
+  margin-bottom: 0%;
+  border-radius: 10%;
+}
+img.im{
+  border-radius: 10%;
+  width: 220px;
+  height: 350px;
+  
+}
+.bton{
+  margin-left:5px;
+  height: 50px;
+  border-radius: 15%;
+  width: 100px;
+  margin-top: 0%;
+  font-size:15px;
+  font-family: fantasy;
+  color: rgb(113, 100, 235);
+  background-color: #9fc2b0;
+}
+.boy{
+  position: relative;
+  
+  width:75% ;
+  height: 100px;
+  margin-left: 15%;
+  top:10px;
+}
+.box4{
+  position: sticky;
+  height: 250px;
+  width: 30px;
+  background-color:rgb(176, 169, 184);
+  top:250px;
+ margin-left:10px;
+  border-radius: 5px;
+    }
+    
+   .box4 ul i{
+    position: absolute;
+     right: 5px;
+     color:blue; 
+     }
+   .box4 ul i:hover{
+    background: transparent;
+    color:chartreuse;
+   }
+   span ul li {
+    list-style: lower-roman;
+}
+.xy{
+    text-align: left;
+}
+
+
+
+
+
+.clr{
+  background-color: rgb(3, 1, 1);
+  text-align:center;
+  margin-top: 0px;
+  margin-left: 0%;
+  width: 100%;
+  width: 100%;
+}
+.em{
+  position: relative;
+  height: 220px;
+  width: 200px;
+  margin-left: 0%;
+  box-sizing: border-box;
+  border: 10px solid red;
+  bottom:30px;
+}
+.png{
+  position: relative;
+  display: flex;
+  margin-left: 2%;
+  bottom:  60px;
+}
+.w{
+    width: 50.
+     0%;
+    height: 25%;
+    margin-left: 10px;
+   }
+.en{
+  height: 150px;
+  width: 150px;
+  margin-left: 220px;
+  margin-top: 30px;
+  display: inline-flex;
+  box-sizing: border-box;
+  border: 10px solid green;
+  
+}
+ 
+
+.png2{
+  display: flex;
+  margin-left: 67px;
+}
+.png3{
+  width: 10%;
+}
+.form{
+  margin-top: 20px;
+  
+  text-align: center;
+  
+}
+.input-feild{
+  width: 55%;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+.icon{
+position: relative;
+margin-left: 5%;
+box-sizing: border-box;
+background-color: aliceblue;
+border: 1px solid white;
+}
+.iinput-feild::placeholder{
+position: absolute;
+}
+    .box2{
+        box-sizing: border-box;
+        background-color: rgb(13, 13, 13);
+        
+        height: 30%;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 0px;
+        
+        box-shadow:  0 0 5px rgba(0 0 0 /.5),0 0 25px rgba(0 0 0 /.5), 0 0 50px(0 0 0 100px #29e5ef);
+        border-radius: 15px;
+        padding: 70px;
+        padding-left: 10px;
+        
+    }
+    #llp{
+        color: rgb(220, 220, 162);
+    
+        
+        margin-bottom: 20px;
+        margin-left: 37opx;
+    
+         }
+ 
+
+
+    .adian{
+        display:none;
+    }
+    .hdn{
+      display:none;
+    }
+    .pic{
+        margin-left: 23%;
+        
+         background-color:#fff;
+               
+    }
+   .col4{
+    float:left;
+    width:265px;
+    
+   }
+  
+
+
+   
+  .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  height: 130px;
+  border: 5px solid yellowgreen ;
+  text-align: center;
+  outline: none;
+  font-size: 35px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 5px;
+  display: none;
+  overflow: hidden;
+  
+  background-color: #221515;
+}
+.box x{
+width: 23px;
+margin-top: 1250px;
+display: flex;
+}
+.box y{
+width: 25px;
+margin-top: 1000px;
+display: flex;
+}
+.container2{
+
+  width: 350px;
+  height: 400px;
+  margin-left: 10%;
+}
+.container2 .polar{
+ border: 5px solid red;
+ 
+ height: 150px;
+ width: 100px;
+ position: relative;
+ margin-left: 30%;
+}
+.container2 .polar1{
+ border: 5px solid red;
+ height: 150px;
+ width: 100px;
+ position: relative;
+ margin-left: 10%;
+}
+.glad{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+.content .image img{
+  width: 150px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 250%;
+  position: relative;
+  margin-left: 30%;
+
+  
+}
+.dropdown{
+  margin-left: -155px;
+  border:none;
+  
+}
+
+
+ul li ul.dropdown li{
+display: block;
+ }
+ ul li ul.dropdown{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+ } 
+
+
+ ul li:hover ul.dropdown{
+  display: block;
+ }
+ img.or{
+  width: 100%;
+ }
+
+  .glow{
+        color: #131212;
+        font-style: italic;
+        
+        
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #c07373,0 0 20px #f04e4e,0 0 30px #f00404, 0 0 40px#e60073,
+            0 0 5px #e60073, 0 0 60px #6b00e6, 0 0 70px #00e6a1;
+        }
+        to {
+           text-shadow:0 0 20px #c98888,0 0 30px #ff4da6, 0 0 40px #f80808, 0 0 50px #ff4da6, 0 0 60px #ff4da6,  
+           0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+
+</style>
+<body>
+  <div class="bski ">
+          
+    <nav>  
+      <span>
+    <p class="B mt-0">BAISHAKHI</p>
+    
+</span>
+
+<span>
+    
+     
+
+    <ul>
+      <li><a class="lk2 nav-link" href="#" ><span class="glow" style="margin-left:-40px;"><b>PORTFOLIO</b></span>
+<span>
+      </a></li>
+      <li><a href="#">Home</a></li>
+      
+      <li class="p-3"onclick="hdn()"><a href="#">About</a></li>
+      <li><a href="https://ummebaishakhi.github.io/cvbaishakhi/">Resume</a></li>
+      <li><a href="#">Contact</a>
+        <ul class="dropdown">
+          <li>
+            <a href="#"><i class="fa-brands fa-whatsapp text-success"></i>01737948784</a>
+          </li>
+          <li>
+            <a href="#">ummebaishakhi@gmail.com</a>
+          </li></ul>
+        
+      </li>
+      
+    </ul>
+    
+    </nav>
+</span>
+
+</div>
+ 
+
+<div class="container" >
+   
+<div class="row"  >
+    
+    
+  <div class="detail ">
+  <div class="col-8  mt-3">
+    <span  >
+    <h1 >Hello, I'm</h1><span > Umme Sultana</span>  <b>BAISHAKHI </b> 
+<P>I'm a web designer, I'm a freelancer.<br>
+I design and code beautifully simple things, and I love what I do.</P>
+<a href="#" class="btn" style="margin-left: 50%;">HIRE ME</a><br>
+<div class="utilities"style="margin-top:30%;">
+   
+</span>
+</div>
+
+
+
+</div>
+
+  </div>
+  <div class="col-4 p-3 ml-5 a">
+    <img  src="image2.jpg">
+
+  </div>
+</span>
+</div>
+
+</div>
+
+<div class="boy ">
+  <div class="row text-center">
+    <div class="col ">
+      <p id="boy"></p>
+  <button type="bton" onclick="typeWriter()">About me</button>
+    </div>
+  </div>
+  </div>
+
+  <div class="row hdn " id="k">
+    <div class="pic">
+      <img class="im "style="margin-left:5%;"src="myimage.jpg">
+      <div class="col ">
+        <h1>About</h1>
+        <p>Hello, my name is Baishakhi and I enjoy creating things that live on<br>
+          the internet.My internet in web development started back in 2023<br>
+        when I decided to learn about design tools-<br>
+        turns out hacking together a custom reblog button taught me a lot about HTML and CSS!<br><br>
+        Fast forward to today, I've had the previlege working at<br>
+        a training center and a student of design studio.<br>
+        My main focus these days is building accessible,inclusive products and digital experience <br>
+        for variety of clients.<br><br>
+        Here are some technologies I've been working with recently:<br><br>
+        <div class="lily">
+        <li>javascript</li><li>HTML</li><li>CSS</li><li>PHP</li></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<h2 class="my text-center">MY WORKS</h2>
+
+<p class="pp text-center">Take a look:</p>
+
+
+  
+ 
+ 
+ 
+  
+
+
+
+
+<button type="button" class="collapsible">Work may you like</button>
+<div class="content text-white">
+  <p>I'm very much passonate about my work.There are few things I want to mention here.These are my project work.Some of them I've done before .Now ready to work with you.</p>
+</div>
+
+
+<button type="button" class="collapsible">Work no.1</button>
+<div class="content">
+  
+  
+    <div class="container2">  <img src="BMI.png">          </div></div>
+ 
+<button type="button" class="collapsible">Work  no.2</button>
+<div class="content"><img src="mywork1.png">
+  <p>Another Project Work.</p>
+  
+</div>
+<button type="button" class="collapsible">Work no.3</button>
+<div class="content">
+  <p>A grid Table.</p>
+  <img src="grid.png">
+
+</div>
+
+<button type="button" class="collapsible">Work no.4</button>
+<div class="content">
+  <p>A REGISTER FORM.</p>
+  <img src="login.png">
+</div>
+
+<button type="button" class="collapsible">Work no.5</button>
+<div class="content">
+  <p>A Project Work.</p>
+  <img class="or"src="Organic-Food.jpg">
+</div>
+
+
+
+
+       
+       
+
+      <div class="container mt-3">
+        <div class="d-inline-flex p-0 bg-secondary text-white">  
+          <div class="p-1 bg-info"><div class="childa ">
+      
+            <div class="xy">
+              <span>
+          
+                <i class="fa-solid fa-pencil mt-4"></i><br><br>
+                
+                Thinks I enjoy designing<br><br>
+               <b> UX,UI,WEB</b><br>
+              <i class>design tools</i><br>
+            <ul>
+              <li> Figma</li>
+              <li> Webflow</li>
+              <li> Manual</li>
+              <li> Sketch</li>
+            </ul>
+            </span>
+            </div></div>
+            </div>
+          <div class="p-0 bg-warning"><div class="childa">
+            <div class="xy">
+            
+            <span>
+          
+              <i class="fa-solid fa-code mt-4" ></i><br>
+              
+              Language I Speak<br><br>
+            <b>HTML,CSS,<br>JAVASCRIPT</b><br>
+            <i>design tools</i>
+            <ul>
+              <li> Bootstrap</li>
+              <li> Github</li>
+            </ul></span>
+            </div>
+            </div>
+          </div>
+          <div class="p-1 bg-primary"> <div class="childa">
+            <div class="xy">
+            
+            <span>
+              
+              <i class="fa-solid fa-square-poll-horizontal mt-4"></i><br><br>
+              Experience I Draw From<br><br>
+            
+            <ul>
+              <li> <b>UX/UI</b></li>
+                
+              <li>  Product design </li>
+            </ul>
+            
+          </span>
+           
+             </div>
+          </div>
+        </div>
+          <div class="p-1 bg-dark"> <div class="childa ">
+            <div class="xy ">
+            
+            <span>
+              <i class="fa-sharp fa-solid fa-address-book mt-4"></i><br><br>
+              mentor status<br><br>
+            
+            
+            
+              <b>Short Courses</b><br>
+                <ul>
+              <li>short course<br> from <br>Technical<br>
+              Educational<br> Board </li>
+              <li> short course <br>from<br>
+              ICT Department</li>
+            </ul></span>
+            </div>
+          
+          </div></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+       <div class="container2 ">
+        <h4 class="glad mt-5"> I'M VERY MUCH GLAD TO COLLABORATE WITH SUCH WONDERFUL INSTITUTIONS.</h4>
+        <img class="polar "src="babylon.png">
+      
+        <img class="polar1 "src="ictlogo.png">
+       </div>
+        
+          
+         
+        <div class="container bg-dark mt-3">
+          <div class="get text-white">
+            <h1 class="y text-center"><b>Get in touch</b></h1><br>
+            <h5 class="h text-center">If you wanna get in touch or talk to me about a project colleboration or just say hi,<br>
+            fill up the awsome form or send and email to <a class="let text-white"href="# ">ummebaishakhi@gmail.com</a> and let's talk.</h5>
+            </div>
+            <div class="box2 text-info ">
+  
+    
+              <div class="container ">
+               <div id="a">
+               <form  name="regform" onsubmit="return reg()" action="form.html">
+                   <h3>
+                       fill the Form</h3><br>
+                       <label>Enter Your Name</label><br>
+                       <div class="icon">
+                       <i class="fa-solid fa-user"></i>
+                     
+                       <input type="text" name="nam"class="input-feild" placeholder=" your name"><br></div>
+                       <label>Enter Your Location</label><br>
+                       <div class="icon">
+                       <i class="fa-solid fa-location-dot"></i>
+                    
+                       <input type="text" name="loc" class="input-feild" placeholder=" project name" ><br> </div>
+                       
+                       <label>Enter Your Gmail</label><br>
+                       <div class="icon">
+                       <i class="fa-regular fa-envelope"></i>
+                     
+                       <input type="email" name="gmail" class="input-feild" placeholder=" your mail"><br> </div>
+           
+                       <label>Enter Your  number</label><br>
+                       <div class="icon">
+                       <i class="fa-solid fa-phone"></i>
+                     
+                       <input type="number" name="phone" class="input-feild" placeholder=" your  phone no." ><br> </div>
+                   
+                       <div class="sub mt-4">
+                         <button type="submit" style="margin-left: 20%;">submit</button>
+                       </div>
+                     </form>
+                   </div>
+                     </div>
+                     <div class="container border-box mt-4">
+                      <div id="b"class="adian">
+                       <form name="logform" onsubmit = "return log()";>
+                       <h3>confirmation Form</h3><br>
+                       <label>Enter Your password</label><br>
+                       <div class="icon">
+                       <i class="fa-sharp fa-solid fa-user"></i>
+                       
+                       <input type="password" name="pass" class="input-feild" placeholder="your password" ><br></div>
+                       
+                      
+                       <label>Enter Your Gmail</label><br>
+                       <div class="icon">
+                       <i class="fa-regular fa-envelope"></i>
+                       <input type="email" name="gmail" class="input-feild" placeholder="your gmail"><br></div>
+                       
+                      
+                      
+                     <div class="sub mt-4">
+                       <input type="submit"value="login"></div>
+                     </form>
+                     
+                     </div>
+                     </div>
+                     </div>
+                     <div class="lp"id="llp">
+                       <span class="bord d-block mt-5"><button onclick="afran()">Next</button>
+                           </span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </span>
+                     </div>
+                     <div class="social mt-5 text-white ">
+                      <h4 class="h4 text-center"> let's get social</h4><br>
+                      <h6 class="h6 text-center">Follow me on my online page in facebook , whatsapp, instagram ,github link</h6>
+                      </div>
+                      <div class="fcbook text-center">
+                       <i class="fa-brands fa-facebook text-white"></i></a>
+                       
+                      <i class="fa-brands fa-instagram text-white "></i>
+                      <i class="fa-brands fa-whatsapp text-white"></i>
+                      <i class="fa-brands fa-github text-white"></i>
+                      
+                      </div>
+                      
+                    
+                    
+                    </div>
+                    
+                  
+                     <script>
+                        
+                        function afran(){
+                       var x= document.getElementById('a');
+                       var y= document.getElementById('b');
+                   
+                       x.classList.toggle('adian');
+                       y.classList.toggle('adian');
+                     }
+                     function reg(){
+                       var a =document.forms['regform'] ['nam'].value;
+                       var b =document.forms['regform'] ['loc'].value;
+                       var c =document.forms['regform'] ['gmail'].value;
+                       var d =document.forms['regform'] ['phone'].value;
+                       var pv=d.lenghth;
+                       if(a===""|| b===""|| c===""||d==="")
+                       {
+                           alert('must filled');
+                           return false;
+                       }
+                     if(pv !==11){
+                       alert('must include 11 number');
+                           return false;
+                     }
+                     if(pv !==0){
+                      alert('017 must include at first');
+                      return false;
+                     }
+                      
+                     }
+                     
+                     function log(){
+                       var e =document.forms['logform'] ['pass'].value;
+                       var f =document.forms['logform'] ['gmail'].value;
+                       var gv=(f.lenghth);
+                   
+                       if(e===""|| f==="")
+                       {
+                           alert('must filled or register');
+                           return false;
+                   
+                       }
+                       if(gv!==3){
+                    alert('must not include abc')
+                      return false;
+                       }
+                       
+                     }
+
+
+                     function hdn(){
+                      var x= document.getElementById('k');
+                      x.classList.toggle('hdn');
+                      x.scrollIntoView({behavior:'smooth'});
+                     }
+
+                     
+                     var l = 0;
+var txt = 'Hi, I am Baishakhi.Nice to meet you. My interest in web develpoment started back in 2023 when I decided to learn about structural language.';
+var speed = 150;
+
+function typeWriter() {
+  
+  if (l < txt.length) {
+    document.getElementById("boy").innerHTML += txt.charAt(l);
+    l++;
+    document.querySelector('#boy').style.color="blue";
+    setTimeout(typeWriter, speed);
+  }
+}
+   
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
+   
+
+                       </script>
+                   
+
+
+  
+      
+
+
+
+        
+
+        
+      
+      
+      
+        
+    
+        
+    
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+      
+
+ 
+
+</body>
+</html>
